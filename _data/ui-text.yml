@@ -1,0 +1,14 @@
+en:
+  recent_posts: "Recent Posts"
+  search_label: "Toggle search"
+  menu_label: "Toggle menu"
+
+ar:
+  recent_posts: "أحدث المقالات"
+  search_label: "بحث"
+  menu_label: "القائمة"
+  categories_label: "التصنيفات:"
+  tags_label: "الوسوم:"
+  related_label: "مقالات ذات صلة"
+  breadcrumb_home_label: "الرئيسية"
+  breadcrumb_separator: "/"

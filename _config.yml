@@ -11,15 +11,29 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
+
+# Site-wide
+locale: en
+permalink: /:categories/:year/:month/:day/:title/
+
+
 minimal_mistakes_skin: "default"
 
+# Language defaults by folder
 defaults:
-  - scope:
-      path: ""
-      type: "pages"
+  - scope: { path: "_posts/en" }
     values:
-      layout: home
+      lang: en
+      permalink: /en/:year/:month/:day/:title/
       author_profile: true
+      layout: single
+  - scope: { path: "_posts/ar" }
+    values:
+      lang: ar
+      direction: rtl
+      permalink: /ar/:year/:month/:day/:title/
+      author_profile: true
+      layout: single
 
 
 author:
